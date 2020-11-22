@@ -281,17 +281,17 @@ class _MyHomePageState extends State<MyHomePage> {
     printerManager.selectPrinter(printer);
 
     // TODO Don't forget to choose printer's paper
-    const PaperSize paper = PaperSize.mm80;
+    // const PaperSize paper = PaperSize.mm80;
 
     // TEST PRINT
     // final PosPrintResult res =
     // await printerManager.printTicket(await testTicket(paper));
 
     // DEMO RECEIPT
-    final PosPrintResult res =
-        await printerManager.printTicket(await demoReceipt(paper));
+    // final PosPrintResult res =
+    //     await printerManager.printTicket(await demoReceipt(paper));
 
-    showToast(res.msg);
+    // showToast(res.msg);
   }
 
   @override
